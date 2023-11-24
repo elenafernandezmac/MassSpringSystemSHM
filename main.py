@@ -12,7 +12,7 @@ total_time_value = float(input("Type the time, in seconds, in which you wanna st
 """we create a class with all the values needed in the following equations as objects
 Fspring=-kx (N/m)
 Epe= 0.5kx**2
-Ec= epe= 0.5mv**2"""
+Ec= 0.5mv**2"""
 
 class SimpleHarmonicMotion:
     def __init__(self, mass, spring_constant, initial_displacement, initial_velocity=0, time_step=0.01, total_time=10):
